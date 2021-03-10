@@ -1,0 +1,47 @@
+@media screen and (min-width: 575px) {
+    .container {
+        width: 540px;
+        margin: 0 auto;
+    }
+
+    .header__navigation__logo__title {
+        font-size: 32px;
+    }
+
+    .header__navigation__phone {
+        font-size: 24px;
+    }
+
+    .sign__inner {
+        &__img {
+            width: 371px;
+            height: 347px;
+        }
+        &__img-center {
+            text-align: center;
+        }
+    }
+
+    .reminder__inner {
+        &__img-center {
+            text-align: center;
+        }
+
+        &__img {
+            width: 400px;
+            height: 346px;
+        }
+    }
+
+    .review__inner {
+        &__img-center {
+            text-align: center;
+        }
+
+        &__img {
+            width: 401px;
+            height: 227px;
+        }
+    }
+
+}
